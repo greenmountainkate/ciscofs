@@ -1,0 +1,5 @@
+folders:
+  watched: ~/PycharmProjects/ciscofs/watchedDirectory/
+  parsed: ~/PycharmProjects/ciscofs/parsedFiles/
+  clean: ~/PycharmProjects/ciscofs/cleanFiles
+  error: ~/PycharmProjects/ciscofs/errorFiles
