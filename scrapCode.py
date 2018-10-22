@@ -43,3 +43,17 @@ watched_folder = sys.argv[1]  # folder to watch
 parsed_files_folder = sys.argv[2]  # parsedFiles folder
 error_files_folder = sys.argv[3]  # folder to hold files unable to be parsed
 clean_files_folder = sys.argv[4]  # folder to hold clean text files
+
+
+#def parse_html_file(file_to_parse):
+   # with open(file_to_parse) as ftp:
+        # parse html file to tree object
+     #   soup = BeautifulSoup(ftp, 'lxml')
+      #  return soup
+
+
+
+# combine paths and file
+        parsed_folder = os.path.join(parsed_files_folder, f)
+        # copy the parsed file to ParsedFilesFolder
+        shutil.move(os.path.join(watched_folder, f), parsed_folder)
