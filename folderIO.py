@@ -8,11 +8,11 @@ import shutil
 
 def move_to_folder(source, dest, file):
     """
-    Moves a file from source folder to destination folder
+    Moves a file from source folder to destination folder, both folder locations provided as strings
     :param source: string that holds path to source folder
     :param dest: string that holds path to destination folder
     :param file: string that holds filename of file to be moved
-    :return: the destination folder as a string, if move was successful
+    :return: the destination folder as a string, if move was successful, None otherwise
     """
     try:
         return shutil.move(os.path.join(source, file), os.path.join(dest, file))
