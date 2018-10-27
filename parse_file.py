@@ -25,7 +25,6 @@ def parse_html_file(file_to_parse, error_db):
     timestamp = time.strftime('%x %X %Z')
     try:
         with open(file_to_parse) as ftp:
-            print(file_to_parse)
             # parse html file to tree object
             try:
                 soup = bs(ftp, 'lxml')  # lxml is the fastest, but least lenient parser

@@ -1,5 +1,5 @@
 folders:
-  watched: /home/kmbrown/PycharmProjects/ciscofs/watchedDirectory/
-  parsed: /home/kmbrown/PycharmProjects/ciscofs/parsedFiles/
-  clean: /home/kmbrown/PycharmProjects/ciscofs/cleanFiles/
-  error: /home/kmbrown/PycharmProjects/ciscofs/errorFiles/
+  watched: /home/theoretical/cisco/ciscofs/watchedDirectory/
+  parsed: /home/theoretical/cisco/ciscofs/parsedFiles/
+  clean: /home/theoretical/cisco/ciscofs/cleanFiles/
+  error: /home/theoretical/cisco/ciscofs/errorFiles/

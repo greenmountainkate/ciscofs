@@ -47,7 +47,7 @@ ErrorFiles = db.error_files
 
 while True:
 
-    time.sleep(600)  # check every 10 minutes.  Consider shifting to a chron script.
+    time.sleep(600)  #check every 10 minutes.  Consider shifting to a chron script.
     files2 = os.listdir(watched_folder)
     # see if there are new files added
     new = [f for f in files2 if all([f not in files1, f.endswith(".html")])]
